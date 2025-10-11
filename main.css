@@ -2,15 +2,6 @@ body{
     background-color: darkgrey;
 }
 
-.container {
-  display: flex;
-  justify-content: center; 
-  align-items: center;     
-  background-color: darkslategray;
-  height: 100vh; 
-}
-
-
 .container div {
   background-color: gray;
   margin: 10px;
@@ -18,3 +9,12 @@ body{
   font-size: 24px;
 }
 
+#tabs div {
+  display: flex;            
+  justify-content: center; 
+  align-items: center;      
+  height: 200px;            
+  background-color: darkslategray;
+  color: white;
+  font-size: 24px;
+}
