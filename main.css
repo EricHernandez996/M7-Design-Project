@@ -13,10 +13,16 @@ body{
 .ui-tabs-panel {
   display: flex;            
   justify-content: center; 
-  align-items: center;      
-  height: 200px;            
+  align-items: center;    
+  min-height: 200px;       
   background-color: darkslategray;
   color: white;
   font-size: 24px;
   text-align: center;
+  flex-direction: column;  
 }
+
+.ui-tabs-panel {
+  min-height: 50vh; 
+}
+
