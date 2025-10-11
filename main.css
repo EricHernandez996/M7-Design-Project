@@ -28,3 +28,7 @@ body{
   flex: 1 1 150px;   /* flexible width, min 150px */
   max-width: 200px;  /* optional max width */
 }
+
+h1, h2, h3 {
+  text-align: center;
+}
