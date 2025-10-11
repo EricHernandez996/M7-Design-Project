@@ -1,35 +1,20 @@
-h1, h3 {
-  text-align: center;
-  color: white;
-}
 
-body {
-  background-color: darkgrey;
-  font-family: Arial, sans-serif;
-}
-
-#tabs {
-  width: 70%;
-  margin: 40px auto;
-}
-
-/* Base style for all tab panels */
 .ui-tabs-panel {
-  display: flex;                /* enable flexbox */
-  justify-content: center;      /* horizontal centering */
-  align-items: center;          /* vertical centering */
-  flex-direction: column;       /* stack text vertically */
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  flex-direction: column !important;
   min-height: 200px;
   background-color: darkslategray;
   color: white;
-  text-align: center;
   font-size: 24px;
   padding: 20px;
 }
 
 /* Tutorials tab columns */
 #tutorials {
-  flex-direction: row;          /* arrange columns side by side */
+  flex-direction: row !important;
   flex-wrap: wrap;
 }
 
@@ -42,4 +27,8 @@ body {
   text-align: center;
 }
 
-
+/* Headings centered */
+h1, h3 {
+  text-align: center;
+  color: white;
+}
